@@ -38,6 +38,24 @@ Installing [Windows]
 
 Documentation
 ------------
-$ python3 Samsung_TV_ID.py [Manual:] [IP, PORT] [Automatic:] [IP]
+<h5> $ python3 Samsung_TV_ID.py [Manual:] [IP, PORT] [Automatic:] [IP] </h5>
+
+<h5>Samsung TV Identifier uses the vcom-tunnel to gather information through an insecure API.</h5>
+
+
+
+<h3>Output:</h3>
+<h5>Samsung TV IP: XXXXX-XXXXX-XXXXX
+
+Checking if vulnerable...
+
+
+Device is vulnerable...
+
+
+<h3>Output</h43>
+
+<h5>{"device":{"FrameTVSupport":"false","GamePadSupport":"true","ImeSyncedSupport":"true","OS":"XXXXX","TokenAuthSupport":"true","VoiceSupport":"false","countryCode":"XXXXX","description":"XXXXX-XXXXX-XXXXX","developerIP":"XXXXX-XXXXX-XXXXX","developerMode":"XXXX","duid":"uuid:XXXXX-XXXXX-XXXXX","firmwareVersion":"XXXXX-XXXXX-XXXXX","id":"uuid:XXXXX-XXXXX-XXXXXcb36273a534d","ip":"XXXXX-XXXXX-XXXXX","model":"XXXXX-XXXXX-XXXXX","modelName":"XXXXX-XXXXX-XXXXX","name":"XXXXX-XXXXX-XXXXX","networkType":"XXXX","resolution":"XXXXX","smartHubAgreement":"XXXX","type":"XXXX","udn":"uuid:XXXXX-XXXXX-XXXXX","wifiMac":"XXXXX-XXXXX-XXXXX"},"id":"uuid:XXXXX-XXXXX-XXXXX","isSupport":"{\"XXXXX-XXXXX-XXXXX\":\"false\",\"DMP_DRM_WIDEVINE\":\"false\",\"DMP_available\":\"true\",\"EDEN_available\":\"true\",\"FrameTVSupport\":\"false\",\"ImeSyncedSupport\":\"true\",\"TokenAuthSupport\":\"true\",\"remote_available\":\"true\",\"remote_fourDirections\":\"true\",\"remote_touchPad\":\"true\",\"remote_voiceControl\":\"false\"}\n","name":"XXXXX-XXXXX-XXXXX)","remote":"XXXXX-XXXXX-XXXXX","type":"XXXXX-XXXXX-XXXXX","uri":"http://XXXXX-XXXXX-XXXXX/api/v2/","version":"XXXXX-XXXXX-XXXXX"}</h5>
+
 ------------
 This is an Open-Source information gathering tool. You may fork, or do any changes. But credit is appreciated.
