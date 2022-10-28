@@ -39,6 +39,7 @@ Installing [Windows]
 Documentation
 ------------
 <h5> $ python3 Samsung_TV_ID.py [Manual:] [IP, PORT] [Automatic:] [IP] </h5>
+<h5>Note: Device must be up and port must be a vcom-tunnel. It must also contain an api.</h5>
 
 <h5>Samsung TV Identifier uses the vcom-tunnel to gather information through an insecure API.</h5>
 
